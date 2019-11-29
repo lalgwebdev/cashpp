@@ -20,12 +20,12 @@ return [
     ],
   ],
   1 => [
-    'name' => 'cheque',
+    'name' => 'check',
     'entity' => 'payment_processor_type',
     'params' => [
       'version' => 3,
-      'title' => 'Cheque',
-      'name' => 'cheque',
+      'title' => 'Check',
+      'name' => 'check',
       'description' => 'Payment processor for recording check contributions',
       'user_name_label' => 'Username (not used)',
       'password_label' => 'Password (not used)',
