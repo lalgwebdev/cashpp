@@ -13,7 +13,7 @@ return [
       'password_label' => 'Password (not used)',
       'url_site_default' => 'https://example.org',
       'url_site_test_default' => 'https://example.org',
-      'class_name' => 'Payment_Manual',
+      'class_name' => 'Payment_Cash',
       'billing_mode' => 1, // 1=form
       'payment_type' => 3, // 3=cash
       'is_recur' => 0,
@@ -31,7 +31,7 @@ return [
       'password_label' => 'Password (not used)',
       'url_site_default' => 'https://example.org',
       'url_site_test_default' => 'https://example.org',
-      'class_name' => 'Payment_Manual',
+      'class_name' => 'Payment_Cash',
       'billing_mode' => 1, // 1=form
       'payment_type' => 4, // 4=cheque
       'is_recur' => 0,
@@ -49,7 +49,7 @@ return [
       'password_label' => 'Password (not used)',
       'url_site_default' => 'https://example.org',
       'url_site_test_default' => 'https://example.org',
-      'class_name' => 'Payment_Manual',
+      'class_name' => 'Payment_Cash',
       'billing_mode' => 1, // 1=form
       'payment_type' => 5, // 5=BACS Offline (was EFT)
       'is_recur' => 0,
