@@ -1,5 +1,10 @@
 # cashpp
 
+This is a modification for LALG of the original version by Aidan Saunders.
+* It adds a further PP type of BACS Offline
+* Changes Checks to Cheques
+* and updates version information.
+
 This extension adds two payment processor types for recording Cash and Cheques (Checks).
 The intended use is with administrative webforms where staff want to record cash and cheques received.
 
@@ -21,7 +26,7 @@ install it with the command-line tool [cv](https://github.com/civicrm/cv).
 
 ```bash
 cd <extension-dir>
-cv dl cashpp@https://github.com/ayduns/cashpp/archive/master.zip
+cv dl cashpp@https://lab.civicrm.org/extensions/cashpp/archive/master.zip
 ```
 
 ## Installation (CLI, Git)
@@ -30,7 +35,7 @@ Sysadmins and developers may clone the [Git](https://en.wikipedia.org/wiki/Git) 
 install it with the command-line tool [cv](https://github.com/civicrm/cv).
 
 ```bash
-git clone https://github.com/ayduns/cashpp.git
+git clone https://lab.civicrm.org/extensions/cashpp.git
 cv en cashpp
 ```
 
@@ -54,4 +59,4 @@ Enable translsation so us Brits can deal with Cheques not Checks!
 
 ## Technical detail
 
-This just exposes the existing Manual payment processor in core.
+This is mostly just the existing Manual payment processor in core.
